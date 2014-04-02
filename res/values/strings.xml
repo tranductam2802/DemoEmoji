@@ -1,5 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">DemoEmoji</string>
+    <string name="open_emoji_panel">Click me to open emoji keyborad</string>
+    <string name="close_emoji_panel">close</string>
+    <string name="send">send</string>
+    <string name="image_description">Images</string>
 
 </resources>

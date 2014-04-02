@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="emoji_panel_num_column" type="integer">8</item>
+
+</resources>

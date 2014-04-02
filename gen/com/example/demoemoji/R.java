@@ -15,21 +15,73 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int emoji_041=0x7f020000;
+        public static final int emoji_042=0x7f020001;
+        public static final int emoji_043=0x7f020002;
+        public static final int emoji_044=0x7f020003;
+        public static final int emoji_045=0x7f020004;
+        public static final int emoji_046=0x7f020005;
+        public static final int emoji_047=0x7f020006;
+        public static final int emoji_048=0x7f020007;
+        public static final int emoji_049=0x7f020008;
+        public static final int emoji_050=0x7f020009;
+        public static final int emoji_051=0x7f02000a;
+        public static final int emoji_052=0x7f02000b;
+        public static final int emoji_053=0x7f02000c;
+        public static final int emoji_054=0x7f02000d;
+        public static final int emoji_055=0x7f02000e;
+        public static final int emoji_056=0x7f02000f;
+        public static final int emoji_057=0x7f020010;
+        public static final int emoji_058=0x7f020011;
+        public static final int emoji_059=0x7f020012;
+        public static final int emoji_060=0x7f020013;
+        public static final int emoji_061=0x7f020014;
+        public static final int emoji_062=0x7f020015;
+        public static final int emoji_063=0x7f020016;
+        public static final int emoji_064=0x7f020017;
+        public static final int emoji_065=0x7f020018;
+        public static final int emoji_066=0x7f020019;
+        public static final int emoji_067=0x7f02001a;
+        public static final int emoji_068=0x7f02001b;
+        public static final int emoji_069=0x7f02001c;
+        public static final int emoji_070=0x7f02001d;
+        public static final int emoji_071=0x7f02001e;
+        public static final int emoji_072=0x7f02001f;
+        public static final int emoji_073=0x7f020020;
+        public static final int emoji_074=0x7f020021;
+        public static final int emoji_075=0x7f020022;
+        public static final int emoji_076=0x7f020023;
+        public static final int emoji_077=0x7f020024;
+        public static final int emoji_078=0x7f020025;
+        public static final int emoji_079=0x7f020026;
+        public static final int emoji_080=0x7f020027;
+        public static final int ic_launcher=0x7f020028;
     }
     public static final class id {
-        public static final int abc=0x7f070001;
-        public static final int ads=0x7f070003;
-        public static final int bcd=0x7f070002;
-        public static final int efg=0x7f070000;
-        public static final int mupphin=0x7f070004;
+        public static final int abc=0x7f050003;
+        public static final int ads=0x7f050005;
+        public static final int bcd=0x7f050004;
+        public static final int close=0x7f050007;
+        public static final int efg=0x7f050001;
+        public static final int emoji_item=0x7f050000;
+        public static final int emoji_text_view=0x7f050002;
+        public static final int grid_emoji=0x7f050006;
+        public static final int send=0x7f050008;
+    }
+    public static final class integer {
+        public static final int emoji_panel_num_column=0x7f060000;
     }
     public static final class layout {
         public static final int ac_emoji=0x7f030000;
-        public static final int panel_emoji=0x7f030001;
+        public static final int item_panel_emoji=0x7f030001;
+        public static final int panel_emoji=0x7f030002;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
+        public static final int app_name=0x7f070000;
+        public static final int close_emoji_panel=0x7f070002;
+        public static final int image_description=0x7f070004;
+        public static final int open_emoji_panel=0x7f070001;
+        public static final int send=0x7f070003;
     }
     public static final class style {
         /** 
@@ -53,11 +105,11 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
-        public static final int PanelAnimation=0x7f060002;
+        public static final int AppTheme=0x7f080001;
+        public static final int PanelAnimation=0x7f080002;
     }
 }

@@ -5,18 +5,29 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <ntq.lbs.EmojiTextView
+        android:id="@+id/emoji_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center_vertical"
+        android:scrollbars="none" />
+
     <TextView
         android:id="@+id/abc"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#986354" />
+        android:background="#986354"
+        android:gravity="center"
+        android:text="@string/open_emoji_panel" />
 
     <EditText
         android:id="@+id/bcd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/app_name" />
+        android:hint="@string/app_name"
+        android:imeOptions="actionSend"
+        android:inputType="text" />
 
     <FrameLayout
         android:layout_width="match_parent"
